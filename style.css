@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #36d7e3;
+    --color-secondary: #020020;
+    --color-tertiary: #172664;
+    --color-button: #172664;
+    --color-button-hover: #0a71a0;
+    --color-text: #a8efff;
+    --color-white: #020020;
 }
 
 /* Estilos gerais */
@@ -43,7 +43,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 1px solid #000000;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #a8efff;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -97,11 +97,11 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 2px solid #36d7e3;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px #a8efff;
 }
 
 /* Estilos de botão */
@@ -109,9 +109,8 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    border: 2px solid #000;
+    border: 2px solid #a8efff;
     border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
@@ -122,7 +121,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #0a71a0;
 }
 
 /* Listas */
@@ -136,7 +135,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #a8efff;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -148,7 +147,7 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
+    color: #a8efff;
     background-color: var(--color-button);
     font-size: 16px;
 }
