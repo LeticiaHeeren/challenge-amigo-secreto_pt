@@ -9,7 +9,6 @@ function adicionarAmigo() {
         alert("Por favor, insira um nome.");
         return; 
     }
-
     // Adicionar o nome ao array
     amigos.push(nome);
 
